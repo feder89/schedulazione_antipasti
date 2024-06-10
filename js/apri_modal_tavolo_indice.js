@@ -285,6 +285,8 @@ function loadHistoryProducted(){
 					+'<td>'+value.indice+'</td>'
 					+'<td>'+value.portata+'</td>'
 					+'<td>'+value.quantita+'</td>'
+					+'<td>'+value.ora_produzione+'</td>'
+					+'<td>'+value.ora_evasione+'</td>'
 					+'</tr>';
 					$('#history-table  tbody').append(text);
 			});
